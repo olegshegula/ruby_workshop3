@@ -12,5 +12,5 @@ class MainPage
   checkbox(:any_place, :xpath => "//input[contains(@ng-click,\"toggleAny('place')\")]")
   checkbox(:any_category, :xpath => "//input[contains(@ng-click,\"toggleAny('category')\")]")
   checkbox(:any_description, :xpath => "//input[contains(@ng-click,\"toggleAny('description')\")]")
-  div(:result_event,:xpath => "//a[text()='Махни крыло']")
+  div(:result_event,:xpath => "//a[text()='Махни крылом']")
 end
